@@ -1,0 +1,11 @@
+#language:pt
+
+Funcionalidade:
+Eu como usuário do sistema.
+Desejo realizar o cadastro de novos usuários.
+Para que seja possível armazenar e gerenciar seus dados.
+
+	Cenario: Validar campos obrigtoirios
+		Dado que acesso o site
+		Quando clicar em Cadastrar
+		Entao exibe os campos obrigatorios

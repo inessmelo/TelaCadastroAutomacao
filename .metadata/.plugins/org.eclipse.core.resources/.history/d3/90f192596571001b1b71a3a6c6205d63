@@ -1,0 +1,22 @@
+#language:pt
+
+@testeLogin
+Funcionalidade:
+Eu como usuário do sistema.
+Desejo realizar o cadastro de novos usuários.
+Para que seja possível armazenar e gerenciar seus dados.
+
+	@campoObrig
+	Cenario: Validar campos obrigatorios
+		Dado que acesso o site
+		Quando clicar em Cadastrar
+		Entao exibe as mensagens dos campos obrigatorios
+
+	@campoInv
+	Cenario: Inserir dados invalidos
+		Dado que acesso o site
+		Quando preencher o campo nome com "Joao"
+		E preencher o campo email com "joao@teste.com"
+		E preencher o campo senha com "123456"
+		E clicar em Cadastrar
+		Então exibe a mensagem de nome invalido

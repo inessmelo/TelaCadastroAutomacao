@@ -1,0 +1,19 @@
+package page;
+
+import org.openqa.selenium.WebDriver;
+
+import util.UtilReuso;
+
+public class LoginPage {
+	
+	private UtilReuso util;
+		
+	public LoginPage(WebDriver driver) {
+		util = new UtilReuso(driver);
+	}
+
+	public void setEmail(String email) {
+		util.escrever("email", email);
+	}
+
+}

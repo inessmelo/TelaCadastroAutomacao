@@ -1,0 +1,54 @@
+#language:pt
+
+@testeLogin
+Funcionalidade:
+Eu como usuário do sistema.
+Desejo realizar o cadastro de novos usuários.
+Para que seja possível armazenar e gerenciar seus dados.
+
+	@campoObrig
+	Cenario: Validar campos obrigatorios
+		Dado que acesso o site
+		Quando clicar em Cadastrar
+		Entao exibe as mensagens dos campos obrigatorios
+
+	@nomeInvalido
+	Cenario: Inserir nome invalido
+		Dado que acesso o site
+		Quando preencher o campo nome com "Joao"
+		E preencher o campo email com "joao@teste.com"
+		E preencher o campo senha com "12345678"
+		E clicar em Cadastrar
+		Entao exibe uma mensagem de nome invalido
+
+	@emailInvalido
+	Cenario: Inserir email invalido
+		Dado que acesso o site
+		Quando preencher o campo nome com "Joao Carlos"
+		E preencher o campo email com "joao teste.com"
+		E preencher o campo senha com "12345678"
+		E clicar em Cadastrar
+		Entao exibe uma mensagem de email invalido
+		
+	@senhaInvalida
+	Cenario: Inserir senha invalida
+		Dado que acesso o site
+		Quando preencher o campo nome com "Joao Carlos"
+		E preencher o campo email com "joao@teste.com"
+		E preencher o campo senha com "123456"
+		E clicar em Cadastrar
+		Entao exibe uma mensagem de senha invalida
+		
+	@cadSucesso
+	Cenario: Cadastrar com sucesso
+		Dado que acesso o site
+		Quando preencher o campo nome com <nome>
+		E preencher o campo email com <email>
+		E preencher o campo senha com <senha>
+		E clicar em Cadastrar
+		Entao efetua o cadastro com sucesso
+		
+		Exemplo:
+		|    <nome>   |       <email>       |  <senha>  |
+		|  Ines Melo  | ines.melo@teste.com | 123654123 |
+		| Joao Carlos |    joao@teste.com   | 111222333 |

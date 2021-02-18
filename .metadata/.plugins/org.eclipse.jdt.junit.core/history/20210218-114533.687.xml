@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="RunnerTest (1)" project="br.com.stefanini" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="runner.RunnerTest" time="0.001">
+    <testcase name="initializationError" classname="runner.RunnerTest" time="0.001">
+      <error>io.cucumber.core.gherkin.FeatureParserException: Failed to parse resource at: file:///D:/Documentos/Documentos%20Ines/Curso/Desenvolvimento/EclipseProjects/Stefanini/br.com.stefanini/src/test/resources/features/login.feature
+(1:1): Language not supported: pt-br
+(4:1): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'Funcionalidade:'
+(5:1): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'Eu como usuario do sistema.'
+(6:1): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'Desejo realizar o cadastro de novos usuarios.'
+(7:1): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'Para que seja possivel armazenar e gerenciar seus dados.'
+(10:2): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'Cenario: Validar campos obrigatorios'
+(11:3): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'Dado que acesso o site'
+(12:3): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'Quando clicar em Cadastrar'
+(13:3): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'Entao exibe as mensagens dos campos obrigatorios'
+(16:2): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'Esquema do Cenario: Inserir dados invalidos'
+(17:3): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'Dado que acesso o site'&#13;
+	at io.cucumber.core.gherkin.messages.GherkinMessagesFeatureParser.parse(GherkinMessagesFeatureParser.java:52)&#13;
+	at io.cucumber.core.feature.FeatureParser.parseResource(FeatureParser.java:43)&#13;
+	at java.base/java.util.function.BiFunction.lambda$andThen$0(BiFunction.java:70)&#13;
+	at io.cucumber.core.resource.ResourceScanner.lambda$processResource$1(ResourceScanner.java:79)&#13;
+	at io.cucumber.core.resource.PathScanner$ResourceFileVisitor.visitFile(PathScanner.java:70)&#13;
+	at io.cucumber.core.resource.PathScanner$ResourceFileVisitor.visitFile(PathScanner.java:55)&#13;
+	at java.base/java.nio.file.Files.walkFileTree(Files.java:2724)&#13;
+	at io.cucumber.core.resource.PathScanner.findResourcesForPath(PathScanner.java:48)&#13;
+	at io.cucumber.core.resource.PathScanner.findResourcesForUri(PathScanner.java:28)&#13;
+	at io.cucumber.core.resource.ResourceScanner.findResourcesForUri(ResourceScanner.java:61)&#13;
+	at io.cucumber.core.resource.ResourceScanner.scanForResourcesUri(ResourceScanner.java:134)&#13;
+	at io.cucumber.core.runtime.FeaturePathFeatureSupplier.loadFeatures(FeaturePathFeatureSupplier.java:62)&#13;
+	at io.cucumber.core.runtime.FeaturePathFeatureSupplier.get(FeaturePathFeatureSupplier.java:45)&#13;
+	at io.cucumber.junit.Cucumber.&lt;init&gt;(Cucumber.java:157)&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)&#13;
+	at org.junit.internal.builders.AnnotatedBuilder.buildRunner(AnnotatedBuilder.java:104)&#13;
+	at org.junit.internal.builders.AnnotatedBuilder.runnerForClass(AnnotatedBuilder.java:86)&#13;
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)&#13;
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:37)&#13;
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)&#13;
+	at org.junit.internal.requests.ClassRequest.createRunner(ClassRequest.java:28)&#13;
+	at org.junit.internal.requests.MemoizingRequest.getRunner(MemoizingRequest.java:19)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader.createUnfilteredTest(JUnit4TestLoader.java:90)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader.createTest(JUnit4TestLoader.java:76)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader.loadTests(JUnit4TestLoader.java:49)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:526)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+&#13;
+</error>
+    </testcase>
+  </testsuite>
+</testrun>

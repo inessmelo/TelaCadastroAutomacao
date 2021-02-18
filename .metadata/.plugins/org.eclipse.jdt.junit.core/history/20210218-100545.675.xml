@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="RunnerTest (1)" project="br.com.stefanini" tests="3" started="3" failures="1" errors="0" ignored="0">
+  <testsuite name="runner.RunnerTest" time="43.473">
+    <testsuite name="EMPTY_NAME" time="43.473">
+      <testcase name="Inserir dados invalidos #1" classname="EMPTY_NAME" time="17.37"/>
+      <testcase name="Inserir dados invalidos #2" classname="EMPTY_NAME" time="13.515">
+        <failure>
+          <expected>Por favor, insira um e-mail v�lido.</expected>
+          <actual>Por favor, insira um e-mail válido.</actual>
+          org.junit.ComparisonFailure: expected:&lt;..., insira um e-mail v[�]lido.&gt; but was:&lt;..., insira um e-mail v[á]lido.&gt;&#13;
+	at org.junit.Assert.assertEquals(Assert.java:117)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:146)&#13;
+	at steps.TelaLogin.exibeUmaMensagem(TelaLogin.java:64)&#13;
+	at ✽.exibe uma mensagem "Por favor, insira um e-mail v�lido."(file:///D:/Documentos/Documentos%20Ines/Curso/Desenvolvimento/EclipseProjects/Stefanini/br.com.stefanini/src/test/resources/features/login.feature:22)&#13;
+&#13;
+
+        </failure>
+      </testcase>
+      <testcase name="Inserir dados invalidos #3" classname="EMPTY_NAME" time="12.584"/>
+    </testsuite>
+  </testsuite>
+</testrun>

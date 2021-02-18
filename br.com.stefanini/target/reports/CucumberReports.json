@@ -1,0 +1,718 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-18T14:55:46.268Z",
+        "line": 10,
+        "name": "Validar campos obrigatorios",
+        "description": "",
+        "id": ";validar-campos-obrigatorios",
+        "after": [
+          {
+            "result": {
+              "duration": 1762376000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.TelaLogin.finalizando()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9033578400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que acesso o site",
+            "match": {
+              "location": "steps.TelaLogin.queAcessoOSite()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 192402300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "clicar em Cadastrar",
+            "match": {
+              "location": "steps.TelaLogin.clicarEmCadastrar()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 413126200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "exibe as mensagens dos campos obrigatorios",
+            "match": {
+              "location": "steps.TelaLogin.exibeAsMensagensDosCamposObrigatorios()"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@testeLogin"
+          },
+          {
+            "name": "@campoObrig"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-18T14:55:57.835Z",
+        "line": 26,
+        "name": "Inserir dados invalidos",
+        "description": "",
+        "id": ";inserir-dados-invalidos;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1831237700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.TelaLogin.finalizando()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7668700400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "que acesso o site",
+            "match": {
+              "location": "steps.TelaLogin.queAcessoOSite()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 387243500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "preencher o campo nome com \"Maria\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Maria\"",
+                  "offset": 27
+                }
+              ],
+              "location": "steps.TelaLogin.preencherOCampoNomeCom(java.lang.String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 293974100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "preencher o campo email com \"maria@teste.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"maria@teste.com\"",
+                  "offset": 28
+                }
+              ],
+              "location": "steps.TelaLogin.preencherOCampoEmailCom(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 346712800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "preencher o campo senha com \"12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12345678\"",
+                  "offset": 28
+                }
+              ],
+              "location": "steps.TelaLogin.preencherOCampoSenhaCom(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 184588500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "clicar em Cadastrar",
+            "match": {
+              "location": "steps.TelaLogin.clicarEmCadastrar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 90828600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "exibe uma mensagem \"Por favor, insira um nome completo.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Por favor, insira um nome completo.\"",
+                  "offset": 19
+                }
+              ],
+              "location": "steps.TelaLogin.exibeUmaMensagem(java.lang.String)"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@testeLogin"
+          },
+          {
+            "name": "@dadosInvalido"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-18T14:56:08.663Z",
+        "line": 27,
+        "name": "Inserir dados invalidos",
+        "description": "",
+        "id": ";inserir-dados-invalidos;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1810726300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.TelaLogin.finalizando()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7215046600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "que acesso o site",
+            "match": {
+              "location": "steps.TelaLogin.queAcessoOSite()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1325329000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "preencher o campo nome com \"Maria Joao\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Maria Joao\"",
+                  "offset": 27
+                }
+              ],
+              "location": "steps.TelaLogin.preencherOCampoNomeCom(java.lang.String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 279317100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "preencher o campo email com \"maria teste.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"maria teste.com\"",
+                  "offset": 28
+                }
+              ],
+              "location": "steps.TelaLogin.preencherOCampoEmailCom(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 878501900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "preencher o campo senha com \"12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12345678\"",
+                  "offset": 28
+                }
+              ],
+              "location": "steps.TelaLogin.preencherOCampoSenhaCom(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 191424800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "clicar em Cadastrar",
+            "match": {
+              "location": "steps.TelaLogin.clicarEmCadastrar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 84968700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "exibe uma mensagem \"Por favor, insira um e-mail válido.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Por favor, insira um e-mail válido.\"",
+                  "offset": 19
+                }
+              ],
+              "location": "steps.TelaLogin.exibeUmaMensagem(java.lang.String)"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@testeLogin"
+          },
+          {
+            "name": "@dadosInvalido"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-18T14:56:20.459Z",
+        "line": 28,
+        "name": "Inserir dados invalidos",
+        "description": "",
+        "id": ";inserir-dados-invalidos;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1792657400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.TelaLogin.finalizando()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8045203200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "que acesso o site",
+            "match": {
+              "location": "steps.TelaLogin.queAcessoOSite()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 381870800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "preencher o campo nome com \"Maria Joao\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Maria Joao\"",
+                  "offset": 27
+                }
+              ],
+              "location": "steps.TelaLogin.preencherOCampoNomeCom(java.lang.String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 288116000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "preencher o campo email com \"maria@teste.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"maria@teste.com\"",
+                  "offset": 28
+                }
+              ],
+              "location": "steps.TelaLogin.preencherOCampoEmailCom(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 436562800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "preencher o campo senha com \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123456\"",
+                  "offset": 28
+                }
+              ],
+              "location": "steps.TelaLogin.preencherOCampoSenhaCom(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 171892100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "clicar em Cadastrar",
+            "match": {
+              "location": "steps.TelaLogin.clicarEmCadastrar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 86922300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "exibe uma mensagem \"A senha deve conter ao menos 8 caracteres.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"A senha deve conter ao menos 8 caracteres.\"",
+                  "offset": 19
+                }
+              ],
+              "location": "steps.TelaLogin.exibeUmaMensagem(java.lang.String)"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@testeLogin"
+          },
+          {
+            "name": "@dadosInvalido"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-18T14:56:31.731Z",
+        "line": 42,
+        "name": "Cadastrar com sucesso",
+        "description": "",
+        "id": ";cadastrar-com-sucesso;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1662766500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.TelaLogin.finalizando()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7826448200,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "que acesso o site",
+            "match": {
+              "location": "steps.TelaLogin.queAcessoOSite()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 349627300,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "preencher o campo nome com \"Ines Melo\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ines Melo\"",
+                  "offset": 27
+                }
+              ],
+              "location": "steps.TelaLogin.preencherOCampoNomeCom(java.lang.String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 282254400,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "preencher o campo email com \"ines@teste.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ines@teste.com\"",
+                  "offset": 28
+                }
+              ],
+              "location": "steps.TelaLogin.preencherOCampoEmailCom(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 395544100,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "preencher o campo senha com \"12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12345678\"",
+                  "offset": 28
+                }
+              ],
+              "location": "steps.TelaLogin.preencherOCampoSenhaCom(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 382849600,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "clicar em Cadastrar",
+            "match": {
+              "location": "steps.TelaLogin.clicarEmCadastrar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 85943700,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "o cadastro do usuario \"Ines Melo\" e efetuado com sucesso",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ines Melo\"",
+                  "offset": 22
+                }
+              ],
+              "location": "steps.TelaLogin.oCadastroDoUsuarioEEfetuadoComSucesso(java.lang.String)"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@testeLogin"
+          },
+          {
+            "name": "@cadSucesso"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-18T14:56:42.739Z",
+        "line": 43,
+        "name": "Cadastrar com sucesso",
+        "description": "",
+        "id": ";cadastrar-com-sucesso;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1503084300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.TelaLogin.finalizando()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7630606700,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "que acesso o site",
+            "match": {
+              "location": "steps.TelaLogin.queAcessoOSite()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 338898800,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "preencher o campo nome com \"Joao Carlos\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Joao Carlos\"",
+                  "offset": 27
+                }
+              ],
+              "location": "steps.TelaLogin.preencherOCampoNomeCom(java.lang.String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 280292600,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "preencher o campo email com \"joao@teste.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"joao@teste.com\"",
+                  "offset": 28
+                }
+              ],
+              "location": "steps.TelaLogin.preencherOCampoEmailCom(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 416055600,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "preencher o campo senha com \"12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12345678\"",
+                  "offset": 28
+                }
+              ],
+              "location": "steps.TelaLogin.preencherOCampoSenhaCom(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 185076800,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "clicar em Cadastrar",
+            "match": {
+              "location": "steps.TelaLogin.clicarEmCadastrar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 79109100,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "o cadastro do usuario \"Joao Carlos\" e efetuado com sucesso",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Joao Carlos\"",
+                  "offset": 22
+                }
+              ],
+              "location": "steps.TelaLogin.oCadastroDoUsuarioEEfetuadoComSucesso(java.lang.String)"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@testeLogin"
+          },
+          {
+            "name": "@cadSucesso"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "Eu como usuario do sistema.\nDesejo realizar o cadastro de novos usuarios.\nPara que seja possivel armazenar e gerenciar seus dados.",
+    "id": "",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": [
+      {
+        "name": "@testeLogin",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

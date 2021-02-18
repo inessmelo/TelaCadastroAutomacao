@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;drivers&apos; to &apos;target&apos;&#x0D;&#x0A;- Original project: &apos;br.com.olx&apos;&#x0D;&#x0A;- Destination element: &apos;target&apos;&#x0D;&#x0A;- Original element: &apos;drivers&apos;" description="Copy folder" element1="target/drivers" files="0" flags="589830" folders="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1613575807854" target="/br.com.stefanini/target" units="0" version="1.0"/>
+</session>

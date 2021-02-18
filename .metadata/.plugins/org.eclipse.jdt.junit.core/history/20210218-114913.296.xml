@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="RunnerTest (1)" project="br.com.stefanini" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="runner.RunnerTest" time="42.407">
+    <testsuite name="EMPTY_NAME" time="42.407">
+      <testcase name="Inserir dados invalidos #1" classname="EMPTY_NAME" time="15.639"/>
+      <testcase name="Inserir dados invalidos #2" classname="EMPTY_NAME" time="15.034"/>
+      <testcase name="Inserir dados invalidos #3" classname="EMPTY_NAME" time="11.734"/>
+    </testsuite>
+  </testsuite>
+</testrun>

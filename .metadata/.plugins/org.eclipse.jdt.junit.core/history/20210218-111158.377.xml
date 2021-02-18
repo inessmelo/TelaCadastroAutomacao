@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="RunnerTest (1)" project="br.com.stefanini" tests="1" started="1" failures="1" errors="0" ignored="0">
+  <testsuite name="runner.RunnerTest" time="15.344">
+    <testsuite name="EMPTY_NAME" time="15.344">
+      <testcase name="Validar campos obrigatorios" classname="EMPTY_NAME" time="15.344">
+        <failure>
+          <expected>O campo Nome � obrigat�rio.</expected>
+          <actual>O campo Nome é obrigatório.</actual>
+          org.junit.ComparisonFailure: expected:&lt;O campo Nome [� obrigat�]rio.&gt; but was:&lt;O campo Nome [é obrigató]rio.&gt;&#13;
+	at org.junit.Assert.assertEquals(Assert.java:117)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:146)&#13;
+	at steps.TelaLogin.exibeAsMensagensDosCamposObrigatorios(TelaLogin.java:57)&#13;
+	at ✽.exibe as mensagens dos campos obrigatorios(file:///D:/Documentos/Documentos%20Ines/Curso/Desenvolvimento/EclipseProjects/Stefanini/br.com.stefanini/src/test/resources/features/login.feature:13)&#13;
+&#13;
+
+        </failure>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>
